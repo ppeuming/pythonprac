@@ -67,7 +67,7 @@ def bin_search(a: Sequence, key: Any) -> int:
         if pl != pc:
             print((pl * 4 + 2) * ' ' + '<-' + ((pc - pl) * 4-1) * ' ' + '+', end='')
         else:
-            print((pc * 4 + 2) * ' ' + '<+', end='')
+            print((pc * 4 + 2) * ' ' + '<+', end='')                        
         if pc != pr:
             print(((pr-pc) * 4 -1) * ' ' + '->')
         else:
